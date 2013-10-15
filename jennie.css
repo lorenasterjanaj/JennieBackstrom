@@ -1,0 +1,415 @@
+body, 
+html{
+	margin:0;
+	padding:0;
+	height: auto;
+	color: #000000;
+	background-image: url("https://dl.dropboxusercontent.com/sh/1z7rrc9tp1cd2ja/X82mdB9PrG/DSC_0810.JPG?token_hash=AAF_XfR8ceG3aXsI2Aa0AE7nKj0j-r_pwtnDVm_oj2esIw");
+	font-family: Cambria;
+
+	/* C  O  N  T  A  I  N  E  R */
+}
+#container{
+	width:75%;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	background: #ffffff;
+	padding: 35px;
+	border: 1px solid #bbb;
+	border-radius: 10px;
+}
+
+/*  H  e  a  d  e  r  */
+
+#header{
+	height: 250px;
+	padding: 0px;
+	margin-top: 0px;
+}
+
+#sitetitle{
+	border: 0;
+	margin: 0;
+	padding-top: 15px;
+	font-family: 'Cambria';
+	font-size: 2em;
+	line-height: 1.212;
+	text-align:center;
+	clear: both;
+	display: block;
+	}
+
+.header{
+	width:100%; 
+	height:100%;
+	background: #fff;
+	border: 1px solid #bbb;
+	padding: 1px;}
+
+	/*  N  a  v  i  g  a  t  i  o  n  */
+
+#nav{
+	background: #ffffff;
+	height: 10px;
+	text-decoration: none;
+	text-align: center;
+	border: 3px double #eee;
+	border-width: 3px 0;
+	clear: both;
+	display: block;
+	float: left;
+	margin: 1.615em auto;
+	min-height: 43px;
+	position: relative;
+	width: 100%;
+}
+#nav ul {
+	text-align: center;
+	list-style:none;
+	width: 85%;
+	font-weight: bold;
+}
+#nav li {
+	display:inline-block;
+	text-align: center;
+	width: 120px;
+
+}
+
+a.nav:link { text-decoration: none; color: #000000;}
+a:visited { color: #000000;}
+a.nav:hover { 
+	color: #ffffff; 
+	background-color: #E6E6E6; 
+	padding: 7px;
+	-webkit-border-radius: 8px;  
+    -moz-border-radius: 8px;  
+    border-radius: 8px; 
+     }
+
+/*  H o m e   P a g e   S e c t i o n   D i v i d e r s   */     
+
+#Gallery{
+	background: #000000;
+	width: 70%;
+	height: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+.p{
+	line-height: 3px;
+	color: #ffffff;
+	padding-left: 30px;
+	display: inline-block;
+}
+
+
+#GalleryBody{
+	background: #E6E6E6;
+	float: left;
+	width: 70%;
+	height: 300px;
+	margin-bottom: 10px;
+}
+
+#MusicBody{
+	background: #E6E6E6;
+	float: right;
+	width: 28%;
+	height: 300px;
+	margin-bottom: 10px;
+}
+
+#Music{
+	background: #000000;
+	width: 28%;
+	height: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: right;
+	font-color: #ffffff;
+}
+
+#NewsContainer{
+	float: left;
+	width: 70%
+}
+
+#VideosContainer{
+	float: right;
+	width: 30%
+}
+
+#NewsBody{
+	background: #E6E6E6;
+	float: left;
+	width: 100%;
+	height: 576px;
+	margin-bottom: 10px;
+	clear: both;
+}
+
+#News{
+	background: #000000;
+	width: 100%;
+	height: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: left;
+	}
+
+#new-album{
+	height: auto;
+	width: 45%;
+	float: left;
+	padding: 15px;
+	display: block;
+	clear: both;
+}
+
+.new-album-text{
+	text-align: left;
+
+}
+
+.thankyou{
+	float: right;
+	height: auto;
+	width: 45%;
+	padding-top: 35px;
+	display: block;
+	padding-right: 20px;
+	
+}
+
+.thankyoutext{
+	height: 200px;
+	width: 300px;
+	border: 1px solid black;
+	border-width: 1px;
+	background: #ffffff;
+	padding: 25px;
+	margin: 35px;
+
+}
+
+.new-album-image{
+	height: auto;
+	width: 85%;
+
+}
+
+#Shows{
+	background: #000000;
+	width: 93.5%;
+	height: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: right;
+	font-color: #ffffff;
+}
+
+#ShowsBody{
+	background: #E6E6E6;
+	float: right;
+	width: 93.5%;
+	height: auto;
+	margin-bottom: 10px;
+	clear: both;
+	padding: 15px;
+}
+
+/*  A B O U T  P A G E  */
+
+#About{
+	background: #000000;
+	width: 100%;
+	height: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+#AboutBody{
+	background: #E6E6E6;
+	float: left;
+	width: 47%;
+	height: auto;
+	margin-bottom: 10px;
+	padding : 15px;
+
+}
+
+#AboutImage{
+	float: right;
+	width: 47%;
+	height: auto;
+	margin-left: 18px;
+}
+
+
+.about-image{
+	width: auto;
+	max-height: 512px;
+}
+
+#Photos{
+	background: #000000;
+	width: 100%;
+	height: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+a.downloadable-image:hover img{
+	opacity: 0.5;
+ 
+}
+
+#PhotosBody{
+	background: #E6E6E6;
+	float: left;
+	width: 97%;
+	height: auto;
+	margin-bottom: 10px;
+	padding : 15px;
+
+}
+
+
+/* Section Dividers in Music Page */
+
+#MusicPage{
+	background: #000000;
+	width: 100%;
+	height: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+
+#MusicBodyPage{
+	float: left;
+	width: 100%;
+	height: 600px;
+	margin-bottom: 10px;
+}
+
+
+/* S H O W S   P A G E  */
+
+#ShowsPage{
+	background: #000000;
+	width: 100%;
+	height: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+#ShowsBodyPage{
+	float: left;
+	width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+	margin-top: 5px;
+}
+
+/* C O N T A C T   P A G E  */
+
+#ContactPage{
+	background: #000000;
+	width: 100%;
+	height: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: left;
+	font-weight: bold;
+}
+
+
+#ContactBodyPage{
+	background: #E6E6E6;
+	float: left;
+	width: 100%;
+	height: 300px;
+	margin-bottom: 10px;
+}
+
+#contactform {
+	padding: 15px;
+	border: 1px;
+	width: 400px;
+	float: left;
+	margin: 15px;
+	text-align: left; 
+	
+}
+
+#contactform input { 
+	padding: 5px;
+	margin: 5px;
+}
+
+#contactform textarea { 
+	width: 300px ;
+	height: 120px ;
+	padding: 5px;
+	margin: 5px;
+}
+
+/* F O O T E R  */
+
+
+#footer{
+	background: #000000;
+	height: 100px;
+	clear: both;
+	color: #ffffff;
+	text-align: right;
+	font-size: 12px;
+}
+
+#socialmedia{
+	display: inline-block;
+	float: left;
+	padding-top: 30px;
+	padding-left: 20px;
+
+}
+
+a.socialmedia:hover img{
+	opacity: 0.5;
+ 
+}
+
+#footerlinks{
+	
+	display: inline-block;
+	float: left;
+	padding-left: 20px;
+	padding-top: 40px;
+
+	}
+a.footerlinks:link{text-decoration: none; color: #fff;}
+a.footerlinks:hover {font-weight: bold;}
+
+
+
+
+
+.Credit{
+	display: inline-block;
+	padding-top: 60px;
+	padding-right: 20px;
+
+}
+
+
+
+
