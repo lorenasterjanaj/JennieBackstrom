@@ -4,7 +4,7 @@ html{
 	padding:0;
 	height: auto;
 	color: #000000;
-	background-image: url("https://dl.dropboxusercontent.com/sh/1z7rrc9tp1cd2ja/X82mdB9PrG/DSC_0810.JPG?token_hash=AAF_XfR8ceG3aXsI2Aa0AE7nKj0j-r_pwtnDVm_oj2esIw");
+	background-image: url("back.jpeg");
 	font-family: Cambria;
 
 	/* C  O  N  T  A  I  N  E  R */
@@ -233,27 +233,35 @@ a.nav:hover {
 	float: left;
 }
 
+
 #AboutBody{
 	background: #E6E6E6;
 	float: left;
-	width: 47%;
+	width: 97%;
 	height: auto;
 	margin-bottom: 10px;
 	padding : 15px;
+}
 
+#abouttext{
+	width: 45%;
+	display:inline-block;
+	padding-left: 15px; 
 }
 
 #AboutImage{
-	float: right;
-	width: 47%;
-	height: auto;
-	margin-left: 18px;
+	padding-left: 40px;
+	width: 45%;
+	display: inline-block;
 }
 
 
 .about-image{
 	width: auto;
+	max-width: 100%;
+	height: auto;
 	max-height: 512px;
+	display: inline-block;
 }
 
 #Photos{
@@ -281,24 +289,6 @@ a.downloadable-image:hover img{
 }
 
 
-/* Section Dividers in Music Page */
-
-#MusicPage{
-	background: #000000;
-	width: 100%;
-	height: 40px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	float: left;
-}
-
-
-#MusicBodyPage{
-	float: left;
-	width: 100%;
-	height: 600px;
-	margin-bottom: 10px;
-}
 
 
 /* S H O W S   P A G E  */
@@ -331,6 +321,11 @@ a.downloadable-image:hover img{
 	float: left;
 	font-weight: bold;
 }
+
+
+a.emaillink:link{text-decoration: none; color: #000;}
+a.emaillink:hover {font-weight: bold;}
+a.emaillink:visited { color: #000;}
 
 
 #ContactBodyPage{
@@ -389,18 +384,32 @@ a.socialmedia:hover img{
 }
 
 #footerlinks{
-	
 	display: inline-block;
 	float: left;
-	padding-left: 20px;
+	padding-left: 40px;
 	padding-top: 40px;
 
-	}
+}
+
 a.footerlinks:link{text-decoration: none; color: #fff;}
 a.footerlinks:hover {font-weight: bold;}
+a.footerlinks:visited { color: #ffffff;}
 
+#paypal{
+	display: inline-block;
+	float: left;
+	padding-top: 10px;
+	padding-left: 30px;
+	max-width: 100%;
+	height: auto;
 
+}
 
+.socialmedia{
+	display: inline-block;
+	max-width: 100%;
+	max-height: auto;
+}
 
 
 .Credit{
