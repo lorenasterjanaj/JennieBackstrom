@@ -408,7 +408,9 @@ a.footerlinks:visited { color: #ffffff;}
 
 .socialmedia{
 	display: inline-block;
-	
+	max-width: 100%;
+	max-height: auto;
+	position: relative;
 
 }
 
