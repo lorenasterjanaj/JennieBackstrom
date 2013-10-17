@@ -408,10 +408,8 @@ a.footerlinks:visited { color: #ffffff;}
 
 .socialmedia{
 	display: inline-block;
-	max-width: 100%;
-	max-height: auto;
-	height: 45px;
-	width: 45px;
+	
+
 }
 
 
