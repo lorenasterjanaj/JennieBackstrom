@@ -304,7 +304,7 @@ a.downloadable-image:hover img{
 	height: auto;
 	margin-bottom: 10px;
 	padding-left: 15px;
-	visibility: hidden;
+	
 
 }
 
@@ -329,6 +329,90 @@ a.downloadable-image:hover img{
 
 }
 
+#DavidD{
+	display: inline-block;
+}
+
+.DavidHover{
+	display: none;
+	width: 200px;
+}
+
+#DavidD:hover .DavidHover {
+	display: inline-block;
+}
+
+
+
+#JimP{
+	display: inline-block;
+}
+
+.JimPHover{
+	display: none;
+	width: 200px;
+}
+
+#JimP:hover .JimPHover {
+	display: inline-block;
+}
+
+
+
+
+#JoeD{
+	display: inline-block;
+}
+
+.JoeDHover{
+	display: none;
+	width: 200px;
+}
+
+#JoeD:hover .JoeDHover {
+	display: inline-block;
+}
+
+
+#EdO{
+	display: inline-block;
+}
+
+.EdOHover{
+	display: none;
+	width: 200px;
+}
+
+#EdO:hover .EdOHover {
+	display: inline-block;
+}
+
+
+#JoeH{
+	display: inline-block;
+}
+
+.JoeHHover{
+	display: none;
+	width: 200px;
+}
+
+#JoeH:hover .JoeHHover {
+	display: inline-block;
+}
+
+#AbbeyK{
+	display: inline-block;
+}
+
+.AbbeyKHover{
+	display: none;
+	width: 200px;
+}
+
+#AbbeyK:hover .AbbeyKHover {
+	display: inline-block;
+}
 
 
 
