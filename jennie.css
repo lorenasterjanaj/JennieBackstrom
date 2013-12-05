@@ -547,7 +547,8 @@ a.footerlinks:visited { color: #ffffff;}
 }
 
 a.downloadable-image:hover img{
-	opacity: 0.5;}
+	opacity: 0.5;
+	z-index: 1}
 
 
 .Credit{
