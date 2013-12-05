@@ -329,6 +329,9 @@ a.downloadable-image:hover img{
 
 }
 
+a.jimjoe:hover img{
+	opacity: 0.5;}
+
 #DavidD{
 	display: inline-block;
 }
@@ -342,6 +345,10 @@ a.downloadable-image:hover img{
 	display: inline-block;
 }
 
+.red{
+	color: red;
+
+}
 
 
 #JimP{
