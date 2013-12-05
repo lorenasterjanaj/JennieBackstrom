@@ -550,6 +550,21 @@ a.downloadable-image:hover img{
 
 }
 
+/* S T O R E    P A G E  */
 
+#StoreItems{
+	display: inline-block;
+	padding: 2px;
+	font-size: 11px;
+	
+}
 
+#StoreBody{
+	background: #E6E6E6;
+	float: left;
+	width: 96%;
+	height: auto;
+	margin-bottom: 10px;
+	padding: 18px;
+}
 
